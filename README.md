@@ -55,9 +55,7 @@ Testar mensagens de erro e fluxo correto do usuário.
 - Page Object Model (POM)
 - SOLID
 - **Relatórios:**
-    - Allure
-    Mochawesome (Multiple HTML)
-    - JUnit
+    - Mochawesome
 - **CI/CD:**
     - Jenkins
     - GitHub Actions
@@ -91,7 +89,6 @@ AUTOMACAOCYPRESS/
 │   │   ├── features/          # Arquivos .feature para os testes BDD
 │   │   ├── pages/             # Classes Page Object Model (POM)
 │   │   ├── step_definitions/  # Implementação dos Steps do Cucumber
-│   ├── fixtures/              # Dados mockados para os testes
 │   ├── support/               # Suporte e comandos customizados
 │   │   ├── generators/        # Geradores de dados aleatórios
 │   │   ├── model/             # Modelos de dados
